@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\bin\Debug\Software.exe.config
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\bin\Debug\Software.exe
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\bin\Debug\Software.pdb
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.Properties.Resources.resources
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.exe
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.pdb
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.Main.resources
+C:\Users\User\Desktop\Coursework-of-classmates\PodolyanovGleb\Software\obj\Debug\Software.SignIn.resources
