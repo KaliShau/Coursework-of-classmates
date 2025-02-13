@@ -21,7 +21,17 @@ namespace Software
         {
             Form signIn = new SignIn(this);
             signIn.Show();
-            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form signUp = new SignUp(this);
+            signUp.Show();
         }
     }
 }
