@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignIn.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.Designer.cs",
-              "RelativeDocumentMoniker": "SignIn.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.Designer.cs",
-              "RelativeToolTip": "SignIn.Designer.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAnwHYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:40:35.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignIn.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.cs",
-              "RelativeDocumentMoniker": "SignIn.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.cs",
-              "RelativeToolTip": "SignIn.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBcAAAAVAAAAAAAAAA==",
+              "Title": "Work.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
+              "RelativeDocumentMoniker": "Work.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
+              "RelativeToolTip": "Work.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:29:38.441Z",
+              "WhenOpened": "2025-02-13T16:59:22.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Work.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
+              "RelativeDocumentMoniker": "Work.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs [Design]",
+              "RelativeToolTip": "Work.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:28:20.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:33:42.879Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.cs",
-              "RelativeDocumentMoniker": "SignIn.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\SignIn.cs [Design]",
-              "RelativeToolTip": "SignIn.cs [Design]",
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\DB.cs",
+              "RelativeDocumentMoniker": "DB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\DB.cs",
+              "RelativeToolTip": "DB.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwHoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:21:08.191Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Main.cs [Design]",
-              "RelativeToolTip": "Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T16:02:33.661Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-13T16:13:35.319Z",
+              "EditorCaption": ""
             }
           ]
         }

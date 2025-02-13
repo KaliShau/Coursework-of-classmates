@@ -12,22 +12,51 @@ namespace Software
 {
     public partial class SignIn : Form
     {
-        private Main mainForm;
-        public SignIn(Main from)
+
+        Main mainFrom;
+        public SignIn(Main form)
         {
             InitializeComponent();
-            mainForm = from;
+            mainFrom = form;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            mainForm.Show();
+            this.Close();
         }
 
-        private void SignIn_FormClosing(object sender, FormClosingEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            string login = textBox1.Text;
+            string password = textBox2.Text;
+
+            if (login == "" || password == "")
+            {
+                return;
+            }
+
+            DB db = new DB();
+            DataTable dt = new DataTable();
+
+            dt = db.login(login, password);
+
+            if (dt.Rows.Count == 1)
+            {
+                Work form = new Work(dt);
+                form.Show();
+                this.Close();
+                mainFrom.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Ошибка");
+            }
+
+        }
+
+        private void SignIn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
