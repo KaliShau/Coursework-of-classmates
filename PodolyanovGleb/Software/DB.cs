@@ -58,7 +58,7 @@ namespace Software
                 return error;
             }
 
-            Cmd.CommandText = "INSERT INTO Users (first_name,login,password, phone_number, role_id) VALUES(:name,:login,:pass, :number, 3);";
+            Cmd.CommandText = "INSERT INTO Users (fio,login,password, phone_number, role_id) VALUES(:name,:login,:pass, :number, 3);";
             Cmd.Parameters.AddWithValue("name", Name);
             Cmd.Parameters.AddWithValue("login", Login);
             Cmd.Parameters.AddWithValue("pass", pass);
@@ -69,6 +69,23 @@ namespace Software
             dt = this.login(Login, pass);
 
             return dt;
+        }
+
+        public void createOperator(string Login, string pass, string Name, string number)
+        {
+            connection();
+            Cmd = new NpgsqlCommand();
+            Cmd.Connection = Con;
+
+            Cmd.CommandText = "INSERT INTO Users (fio,login,password, phone_number, role_id) VALUES(:name,:login,:pass, :number, 2);";
+            Cmd.Parameters.AddWithValue("name", Name);
+            Cmd.Parameters.AddWithValue("login", Login);
+            Cmd.Parameters.AddWithValue("pass", pass);
+            Cmd.Parameters.AddWithValue("number", number);
+            Cmd.ExecuteReader();
+
+            MessageBox.Show("Успешно добавлено");
+
         }
 
         public void createStatement(string fio, string address, string work)
@@ -100,6 +117,19 @@ namespace Software
             return dt;
         }
 
+        public DataTable getUsers()
+        {
+            DataTable dt = new DataTable();
+            connection();
+            Cmd = new NpgsqlCommand();
+            Cmd.Connection = Con;
+            Cmd.CommandText = "SELECT u.id, u.created_at, u.login, u.password, u.fio, u.phone_number, r.name AS role_name FROM Users u JOIN Roles r ON u.role_id = r.id;";
+
+            NpgsqlDataReader dr = Cmd.ExecuteReader();
+            dt.Load(dr);
+            return dt;
+        }
+
         public DataTable getRolesById(int id)
         {
             DataTable dt = new DataTable();
@@ -121,6 +151,25 @@ namespace Software
             Cmd = new NpgsqlCommand();
             Cmd.Connection = Con;
             Cmd.CommandText = "SELECT * FROM Statements;";
+
+            NpgsqlDataReader dr = Cmd.ExecuteReader();
+            dt.Load(dr);
+            return dt;
+        }
+
+        public DataTable getStatementsBySearchTerm(string searchTerm)
+        {
+            DataTable dt = new DataTable();
+            connection();
+            Cmd = new NpgsqlCommand();
+            Cmd.Connection = Con;
+            Cmd.CommandText = @"
+                SELECT * 
+                FROM Statements 
+                WHERE LOWER(id::text) LIKE LOWER(@searchTerm) OR LOWER(fio) LIKE LOWER(@searchTerm);
+            ";
+
+            Cmd.Parameters.AddWithValue("@searchTerm", $"%{searchTerm}%");
 
             NpgsqlDataReader dr = Cmd.ExecuteReader();
             dt.Load(dr);
