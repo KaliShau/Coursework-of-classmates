@@ -56,6 +56,7 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.RosyBrown;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(118, 412);
@@ -63,7 +64,7 @@
             this.button2.Size = new System.Drawing.Size(243, 37);
             this.button2.TabIndex = 2;
             this.button2.Text = "Войти";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
