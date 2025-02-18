@@ -49,6 +49,11 @@ namespace Software
             }
 
             panel2.Visible = false;
+            DB dB = new DB();
+
+            comboBox1.DataSource = dB.getTypesWork();
+            comboBox1.DisplayMember = "name";
+            comboBox1.ValueMember = "ID";
         }
 
         private void Work_FormClosing(object sender, FormClosingEventArgs e)
@@ -68,7 +73,7 @@ namespace Software
             }
 
             DB db = new DB();
-            db.createStatement(fio, address, work);
+            db.createStatement(fio, address, work, Convert.ToInt32(comboBox1.SelectedValue));
 
         }
 
@@ -78,6 +83,12 @@ namespace Software
            panel2.Visible = false;
            panel3.Visible = false;
            panel4.Visible = false;
+            
+            DB dB = new DB();
+
+            comboBox1.DataSource = dB.getTypesWork();
+            comboBox1.DisplayMember = "name";
+            comboBox1.ValueMember = "ID";
         }
 
         private void button4_Click(object sender, EventArgs e)
