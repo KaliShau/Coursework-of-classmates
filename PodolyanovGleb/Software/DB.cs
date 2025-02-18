@@ -88,16 +88,17 @@ namespace Software
 
         }
 
-        public void createStatement(string fio, string address, string work)
+        public void createStatement(string fio, string address, string work, int id)
         {
             DataTable dt = new DataTable();
             connection();
             Cmd = new NpgsqlCommand();
             Cmd.Connection = Con;
-            Cmd.CommandText = "INSERT INTO Statements (FIO,address,type_work) VALUES(:fio,:address,:work);";
+            Cmd.CommandText = "INSERT INTO Statements (FIO,address,type_work, types_work_id) VALUES(:fio,:address,:work, :id);";
             Cmd.Parameters.AddWithValue("FIO", fio);
             Cmd.Parameters.AddWithValue("address", address);
             Cmd.Parameters.AddWithValue("work", work);
+            Cmd.Parameters.AddWithValue("id", id);
 
             Cmd.ExecuteReader();
 
@@ -130,6 +131,19 @@ namespace Software
             return dt;
         }
 
+        public DataTable getTypesWork()
+        {
+            DataTable dt = new DataTable();
+            connection();
+            Cmd = new NpgsqlCommand();
+            Cmd.Connection = Con;
+            Cmd.CommandText = "SELECT * FROM TypesWork;";
+
+            NpgsqlDataReader dr = Cmd.ExecuteReader();
+            dt.Load(dr);
+            return dt;
+        }
+
         public DataTable getRolesById(int id)
         {
             DataTable dt = new DataTable();
@@ -150,7 +164,7 @@ namespace Software
             connection();
             Cmd = new NpgsqlCommand();
             Cmd.Connection = Con;
-            Cmd.CommandText = "SELECT * FROM Statements;";
+            Cmd.CommandText = "SELECT s.*, t.name AS work_name, t.description AS work_description FROM Statements s JOIN TypesWork t ON s.types_work_id = t.ID;";
 
             NpgsqlDataReader dr = Cmd.ExecuteReader();
             dt.Load(dr);
@@ -164,9 +178,8 @@ namespace Software
             Cmd = new NpgsqlCommand();
             Cmd.Connection = Con;
             Cmd.CommandText = @"
-                SELECT * 
-                FROM Statements 
-                WHERE LOWER(id::text) LIKE LOWER(@searchTerm) OR LOWER(fio) LIKE LOWER(@searchTerm);
+                SELECT s.*, t.name AS work_name, t.description AS work_description FROM Statements s JOIN TypesWork t ON s.types_work_id = t.ID
+                WHERE LOWER(s.id::text) LIKE LOWER(@searchTerm) OR LOWER(s.fio) LIKE LOWER(@searchTerm) OR LOWER(t.name) LIKE LOWER(@searchTerm);
             ";
 
             Cmd.Parameters.AddWithValue("@searchTerm", $"%{searchTerm}%");
