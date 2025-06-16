@@ -1,23 +1,14 @@
-﻿using Npgsql;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 using System.Windows.Forms;
+using Npgsql;
 
 namespace Software
 {
     public class DB
     {
-
-        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=db;";
+        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=mcu;";
         NpgsqlConnection Con;
         NpgsqlCommand Cmd;
-
-
         public void connection()
         {
             Con = new NpgsqlConnection();
@@ -65,9 +56,7 @@ namespace Software
             Cmd.Parameters.AddWithValue("number", number);
             Cmd.ExecuteReader();
 
-
             dt = this.login(Login, pass);
-
             return dt;
         }
 
@@ -85,7 +74,6 @@ namespace Software
             Cmd.ExecuteReader();
 
             MessageBox.Show("Успешно добавлено");
-
         }
 
         public void createStatement(string fio, string address, string work, int id)

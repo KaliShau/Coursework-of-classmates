@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\admin\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\src\\modules\\work\\workform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:src\\modules\\work\\workform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|c:\\users\\admin\\desktop\\coursework-of-classmates\\podolyanovgleb\\software\\src\\modules\\work\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA303242-7A81-4A4A-BCA8-D18D91EE8D36}|Software.csproj|solutionrelative:src\\modules\\work\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Work.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
-              "RelativeDocumentMoniker": "Work.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
-              "RelativeToolTip": "Work.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAawHMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T11:01:31.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Work.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs",
-              "RelativeDocumentMoniker": "Work.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\Work.cs [Design]",
-              "RelativeToolTip": "Work.cs [Design]",
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\src\\modules\\Work\\WorkController.cs",
+              "RelativeDocumentMoniker": "src\\modules\\Work\\WorkController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\src\\modules\\Work\\WorkController.cs",
+              "RelativeToolTip": "src\\modules\\Work\\WorkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:33:42.879Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-16T16:45:52.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\DB.cs",
-              "RelativeDocumentMoniker": "DB.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\DB.cs",
-              "RelativeToolTip": "DB.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAYwLUAAAB3AAAAAAAAAA==",
+              "Title": "WorkForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\src\\modules\\Work\\WorkForm.cs",
+              "RelativeDocumentMoniker": "src\\modules\\Work\\WorkForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\PodolyanovGleb\\Software\\src\\modules\\Work\\WorkForm.cs [Design]",
+              "RelativeToolTip": "src\\modules\\Work\\WorkForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:13:35.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:43:52.907Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
