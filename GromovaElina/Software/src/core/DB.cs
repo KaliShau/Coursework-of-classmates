@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
@@ -11,10 +7,9 @@ namespace Software
 {
     internal class DB
     {
-        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=students;"; // Строка подключения
+        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=school;";
         NpgsqlConnection Con;
         NpgsqlCommand Cmd;
-
 
         public void connection()
         {
@@ -72,6 +67,16 @@ namespace Software
         {
             DataTable dt = new DataTable();
             connection();
+
+            DataTable user = login(username, pass);
+
+            if (user.Rows.Count != 0)
+            {
+                MessageBox.Show("Пользователя с такими данными уже существует!");
+                return;
+            }
+
+
             Cmd = new NpgsqlCommand();
             Cmd.Connection = Con;
             Cmd.CommandText = "INSERT INTO users (username, password, role, full_name) VALUES (:username,:pass,:role,:fio);";
@@ -83,6 +88,7 @@ namespace Software
             Cmd.ExecuteReader();
             MessageBox.Show("Пользователь добавлен!");
         }
+
         public void deleteUser(int id)
         {
             DataTable dt = new DataTable();
@@ -109,7 +115,7 @@ namespace Software
             return dt;
         }
 
-        public void createGroup(string name,int teacher_id)
+        public void createGroup(string name, int teacher_id)
         {
             DataTable dt = new DataTable();
             connection();
@@ -122,6 +128,7 @@ namespace Software
             Cmd.ExecuteReader();
             MessageBox.Show("Группа добавлена!");
         }
+
         public void deleteGroup(int id)
         {
             DataTable dt = new DataTable();
@@ -232,7 +239,6 @@ namespace Software
 
             Cmd.ExecuteReader();
 
-
             DataTable user = new DataTable();
             user = login(username, pass);
 
@@ -250,6 +256,38 @@ namespace Software
             MessageBox.Show("Студент Добавлен!");
         }
 
+        public void deleteStudent(int studentId)
+        {
+            connection();
+            Cmd = new NpgsqlCommand();
+            Cmd.Connection = Con;
+
+            Cmd.CommandText = "SELECT user_id FROM students WHERE id = @studentId;";
+            Cmd.Parameters.AddWithValue("@studentId", studentId);
+            object userIdObj = Cmd.ExecuteScalar();
+
+            if (userIdObj == null)
+            {
+                MessageBox.Show("Студент с указанным ID не найден.");
+                return;
+            }
+
+            int userId = Convert.ToInt32(userIdObj);
+
+            Cmd.CommandText = "DELETE FROM users WHERE id = @userId;";
+            Cmd.Parameters.AddWithValue("@userId", userId);
+            int rowsAffected = Cmd.ExecuteNonQuery();
+
+            if (rowsAffected > 0)
+            {
+                MessageBox.Show("Студент успешно удален!");
+            }
+            else
+            {
+                MessageBox.Show("Не удалось удалить студента.");
+            }
+        }
+
         public DataTable getGroupName(int teacher_id)
         {
             connection();
@@ -263,7 +301,7 @@ namespace Software
             group.Load(dr);
 
             return group;
-         }
+        }
 
         public void deleteGrade(int id)
         {
