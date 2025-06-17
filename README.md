@@ -18,5 +18,8 @@
 
 ## Курсовые работы
 
-1. **Подолянов Глеб Артем** - Учет запросов MCU ([Link](./PodolyanovGleb/README.md))
+1. **Подолянов Глеб** - Учет запросов MCU ([Link](./PodolyanovGleb/README.md))
    ![Screenshot](./PodolyanovGleb/assets/start-form.png)
+
+2. **Березкин Артем** - АРМ заместителя директора по АХЧ ([Link](./BerezkinArtem/README.md))
+   ![Screenshot](./BerezkinArtem/assets/requests.png)
