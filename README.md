@@ -23,3 +23,6 @@
 
 2. **Березкин Артем** - АРМ заместителя директора по АХЧ ([Link](./BerezkinArtem/README.md))
    ![Screenshot](./BerezkinArtem/assets/requests.png)
+
+3. **Громова Элина** - Учет студентов для классных руководителей ([Link](./GromovaElina/README.md))
+   ![Screenshot](./GromovaElina/assets/grades.png)
