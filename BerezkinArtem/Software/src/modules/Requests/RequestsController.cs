@@ -1,26 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace Software
+namespace Software.src.modules.Requests
 {
-    public partial class Requests : Form
+    public class RequestsController
     {
-        private string _selectedRequestId;
-        public Requests(string role)
-        {
-            InitializeComponent();
+        public RequestsController() { }
 
+        public void init(DataGridView grid, ComboBox comboBox1, string role, Panel panel2)
+        {
             DB db = new DB();
 
-            dataGridView1.DataSource = db.getRequests();
+            grid.DataSource = db.getRequests();
 
             comboBox1.DataSource = db.getMaterials();
             comboBox1.DisplayMember = "name";
@@ -28,11 +19,17 @@ namespace Software
 
             if (role == "Admin" || role == "Operator")
             {
-                dataGridView1.Visible = true;
+                grid.Visible = true;
+                panel2.Visible = false;
+            }
+            else
+            {
+                grid.Visible = false;
+                panel2.Visible = true;
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void create(TextBox textBox2, ComboBox comboBox1, DataGridView grid)
         {
             int quantity;
             bool isNumber = int.TryParse(textBox2.Text, out quantity);
@@ -49,10 +46,10 @@ namespace Software
 
             DB db = new DB();
             db.createRequest(quantity, Convert.ToInt32(comboBox1.SelectedValue));
-            dataGridView1.DataSource = db.getRequests();
+            grid.DataSource = db.getRequests();
         }
 
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        public void updateRequestsForProcessing(string _selectedRequestId, DataGridView grid)
         {
             if (!string.IsNullOrEmpty(_selectedRequestId))
             {
@@ -60,7 +57,7 @@ namespace Software
                 {
                     DB db = new DB();
                     db.updateRequestsForProcessing(Convert.ToInt16(_selectedRequestId));
-                    dataGridView1.DataSource = db.getRequests();
+                    grid.DataSource = db.getRequests();
                 }
                 catch (Exception ex)
                 {
@@ -73,28 +70,7 @@ namespace Software
             }
         }
 
-        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Right)
-            {
-                // Определяем, по какой строке и столбцу был клик
-                var hitTest = dataGridView1.HitTest(e.X, e.Y);
-
-                if (hitTest.RowIndex >= 0 && hitTest.ColumnIndex >= 0)
-                {
-                    // Выделяем строку
-                    dataGridView1.Rows[hitTest.RowIndex].Selected = true;
-
-                    // Получаем значение столбца "request_id"
-                    this._selectedRequestId = dataGridView1.Rows[hitTest.RowIndex].Cells[0].Value?.ToString();
-
-                    // Показываем контекстное меню
-                    contextMenuStrip1.Show(dataGridView1, e.Location);
-                }
-            }
-        }
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        public void updateRequestsForPerformed(string _selectedRequestId, DataGridView grid)
         {
             if (!string.IsNullOrEmpty(_selectedRequestId))
             {
@@ -102,7 +78,7 @@ namespace Software
                 {
                     DB db = new DB();
                     db.updateRequestsForPerformed(Convert.ToInt16(_selectedRequestId));
-                    dataGridView1.DataSource = db.getRequests();
+                    grid.DataSource = db.getRequests();
 
                 }
                 catch (Exception ex)

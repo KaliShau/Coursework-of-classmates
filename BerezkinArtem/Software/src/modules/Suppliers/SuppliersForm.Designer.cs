@@ -1,6 +1,6 @@
 ﻿namespace Software
 {
-    partial class Suppliers
+    partial class SuppliersForm
     {
         /// <summary>
         /// Required designer variable.
@@ -157,6 +157,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Right;
             this.dataGridView1.Location = new System.Drawing.Point(387, 0);

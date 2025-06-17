@@ -1,30 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Software
+namespace Software.src.modules.Materials
 {
-    public partial class Materials : Form
+    public class MaterialsController
     {
-        public Materials()
-        {
-            InitializeComponent();
+        public MaterialsController() { }
 
+        public void init(DataGridView grid, ComboBox comboBox1)
+        {
             DB db = new DB();
-            dataGridView1.DataSource = db.getMaterials();
+            grid.DataSource = db.getMaterials();
 
             comboBox1.DataSource = db.getSuppliers();
             comboBox1.DisplayMember = "name";
             comboBox1.ValueMember = "id";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void create(TextBox textBox1, TextBox textBox2, TextBox textBox3, ComboBox comboBox1, DataGridView grid)
         {
             string name = textBox1.Text;
             int quantity;
@@ -43,7 +36,7 @@ namespace Software
 
             DB db = new DB();
             db.createMaterials(name, quantity, unit, Convert.ToInt32(comboBox1.SelectedValue));
-            dataGridView1.DataSource = db.getMaterials();
+            grid.DataSource = db.getMaterials();
         }
     }
 }

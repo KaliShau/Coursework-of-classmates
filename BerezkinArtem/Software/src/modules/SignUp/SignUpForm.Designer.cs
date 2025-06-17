@@ -1,6 +1,6 @@
 ﻿namespace Software
 {
-    partial class SignUp
+    partial class SignUpForm
     {
         /// <summary>
         /// Required designer variable.
@@ -150,7 +150,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SignUp_FormClosing);
-            this.Load += new System.EventHandler(this.SignUp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
