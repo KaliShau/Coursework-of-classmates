@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\user\\desktop\\coursework-of-classmates\\gromovaelina\\software\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|c:\\users\\admin\\desktop\\coursework-of-classmates\\gromovaelina\\software\\src\\modules\\signin\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{826D89D9-7FCC-45EF-B65C-CBC1DDD3B396}|Software.csproj|solutionrelative:src\\modules\\signin\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\DB.cs",
-              "RelativeDocumentMoniker": "DB.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\DB.cs",
-              "RelativeToolTip": "DB.cs",
-              "ViewState": "AgIAABEBAAAAAAAAAAAgwC0BAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:34:59.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAawB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T14:12:58.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Student.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Student.cs [Design]",
-              "RelativeToolTip": "Student.cs [Design]",
+              "Title": "SignInForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\src\\modules\\SignIn\\SignInForm.cs",
+              "RelativeDocumentMoniker": "src\\modules\\SignIn\\SignInForm.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\src\\modules\\SignIn\\SignInForm.cs [Design]",
+              "RelativeToolTip": "src\\modules\\SignIn\\SignInForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T14:12:17.692Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Admin.cs",
-              "RelativeToolTip": "Admin.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:36:40.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Admin.cs [Design]",
-              "RelativeToolTip": "Admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:16:36.706Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignIn.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\SignIn.cs",
-              "RelativeDocumentMoniker": "SignIn.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\SignIn.cs",
-              "RelativeToolTip": "SignIn.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:05:57.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\SignIn.cs",
-              "RelativeDocumentMoniker": "SignIn.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\SignIn.cs [Design]",
-              "RelativeToolTip": "SignIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:05:56.085Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Teacher.cs",
-              "RelativeDocumentMoniker": "Teacher.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Teacher.cs",
-              "RelativeToolTip": "Teacher.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAlwH4AAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:05:35.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Teacher.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Teacher.cs",
-              "RelativeDocumentMoniker": "Teacher.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Coursework-of-classmates\\GromovaElina\\Software\\Teacher.cs [Design]",
-              "RelativeToolTip": "Teacher.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:04:26.906Z",
+              "WhenOpened": "2025-06-17T12:45:24.777Z",
               "EditorCaption": " [Design]"
             }
           ]
