@@ -1,22 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Software
 {
-    internal class DB
+    public class DB
     {
-
-        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=db;"; // Строка подключения
+        string StrConnection = "Server=localhost; port=5432; User Id=postgres ;Password=root;database=Manage;";
         NpgsqlConnection Con;
         NpgsqlCommand Cmd;
-
 
         public void connection()
         {
@@ -157,10 +150,8 @@ namespace Software
         {
             try
             {
-                // Устанавливаем соединение с базой данных
                 connection();
 
-                // Шаг 1: Обновляем статус заявки на "Выполнена"
                 using (Cmd = new NpgsqlCommand())
                 {
                     Cmd.Connection = Con;
@@ -175,7 +166,6 @@ namespace Software
                     }
                 }
 
-                // Шаг 2: Получаем данные заявки
                 int materialId = 0;
                 int requestQuantity = 0;
 
@@ -200,7 +190,6 @@ namespace Software
                     }
                 }
 
-                // Шаг 3: Обновляем количество материала
                 using (Cmd = new NpgsqlCommand())
                 {
                     Cmd.Connection = Con;
@@ -224,7 +213,6 @@ namespace Software
             }
             finally
             {
-                // Закрываем соединение с базой данных
                 if (Con != null && Con.State == System.Data.ConnectionState.Open)
                 {
                     Con.Close();

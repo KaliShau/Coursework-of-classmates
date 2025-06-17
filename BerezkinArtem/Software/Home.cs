@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Software
@@ -35,7 +29,7 @@ namespace Software
                 button3.Visible = true;
                 button4.Visible = false;
             }
-            if (this.role == "Admin") 
+            if (this.role == "Admin")
             {
                 button2.Visible = true;
                 button1.Visible = true;
