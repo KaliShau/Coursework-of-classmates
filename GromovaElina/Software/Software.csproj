@@ -164,6 +164,9 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="src\shared\assets\Edu.png" />
+    <Content Include="src\shared\assets\Group.png" />
+    <Content Include="src\shared\assets\Students.png" />
+    <Content Include="src\shared\assets\Users.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
