@@ -26,3 +26,6 @@
 
 3. **Громова Элина** - Учет студентов для классных руководителей ([Link](./GromovaElina/README.md))
    ![Screenshot](./GromovaElina/assets/grades.png)
+
+4. **Летунов Захар (не заплатил)** - Учет и анализ активности участия обучающихся в мероприятиях ([Link](./LetunovZakhar/README.md))
+   ![Screenshot](./LetunovZakhar/assets/home.png)
